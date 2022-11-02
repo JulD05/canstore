@@ -16,7 +16,7 @@
   <nav class="navbar mb-2 bg-primary text-white fixed-top col-12">
     <div class="container-fluid">
         <a class="navbar-brand" href="#" id="btnReset" onclick="resetPanier()">
-          <img src="/icons/logo.ico" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          <img src="icons/logo.ico" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
           Le Jardin de Jules
         </a>
       <!-- Partie 2 de la navbar -->
@@ -37,6 +37,7 @@
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                
                     <form name="choix" class="d-flex flex-wrap gap-2">
                         <select class="form-select m-2" name="categorie">
                           <option selected value="0">Catégories</option>
@@ -58,7 +59,7 @@
 
                    
                   <label for="searchTerm"></label>
-                  <input class="form-control me-2 btn-small" type="text" id="searchTerm" placeholder="Rechecher" aria-label="Search" list="listeValeurs" autocomplete="off">
+                  <input class="form-control m-2 btn-small" type="text" id="searchTerm" placeholder="Rechecher" aria-label="Search" list="listeValeurs" autocomplete="off">
                   <datalist id="listeValeurs">
                   </datalist>
 
